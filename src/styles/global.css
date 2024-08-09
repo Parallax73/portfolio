@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+::-webkit-scrollbar {
+  background-color: #252529;
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #04D361;
+  width: auto;
+  border-radius: 4px;
+}
+
+a.header:hover {
+  color: white;
+}
+
+a:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  transition: 0.6s;
+}
+
+a#leftForward:before {
+  right: 0;
+}
+
+a#leftForward:hover:before {
+  width: 100%;
+  left: 0;
+}
+
+a.forwardGreen:hover:before {
+  background-color: #04D361
+}
+
+button.experience {
+  background-color: #111111;
+  padding-left: 48px;
+  padding-right: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: start;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 600;
+  font-size: large;
+  width: 300px;
+}
+
+button.experience.active {
+  border-left: solid 4px #04D361;
+  color: #04D361;
+}
+
+@media (max-width: 800px) {
+  button.experience {
+    width: 100%;
+  }
+  p.knowledgeContent {
+    display: none;
+  }
+}
+
+::selection {
+  background-color: #252529;
+}
