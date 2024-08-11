@@ -2,14 +2,14 @@ export const repositoriesData = [
   {
     id: 1,
     title: 'Soundle',
-    content: 'Jogo construído com Angular e Spring Boot utilizando dados do Site MyAnimeList',
+    content: 'Jogo construído com Angular e Spring Boot ',
     link: 'https://github.com/parallax73/Soundle',
     click: 'Visualizar projeto'
   },
   {
     id: 2,
     title: 'Blog',
-    content: 'Aplicação feita com Thymeleaf e a biblioteca 98.css para garantir um visual mais retro',
+    content: 'Aplicação feita com Thymeleaf e a biblioteca 98.css ',
     link: 'https://github.com/parallax73/blog',
     click: 'Visualizar projeto'
   },
